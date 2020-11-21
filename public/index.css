@@ -1,0 +1,145 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f4c0a6;
+    height:100%;
+}
+
+
+header{
+    background-color:#f1763a ;
+    border:"none";
+    height:100px;
+    width:100%;
+    color:antiquewhite;
+    font-size: 7rem;
+
+}
+
+#aboutme-text{
+    background-color:#f5d7cd00 ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top:70px;
+    margin:20px;
+    border:none;
+    text-align: left;
+    position: relative;
+}
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Users/farhinchowdhury/Desktop/bootcamp/Homework/Personal-Profile/images/me.jpg);
+    height:300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: antiquewhite;
+    text-align: center;
+    font-size: 3rem;
+
+}
+#title{
+    font-size:5rem;
+    margin-left:30px;
+
+}
+#title h1{
+    font-size:3rem;
+
+
+}
+
+
+i{
+    color:rgba(250, 235, 215, 0.637);
+    padding:20px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .hero-image {
+         width: 375px;
+    }
+}
+
+
+.footer {
+    background-color:#f1763a;
+    color:  antiquewhite;
+    padding: 1rem;
+    align-content: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.contact-header{
+    background-color: #f1763a;
+}
+
+.port{
+    margin:20px;
+    width: 400px;
+    height:350px;
+
+
+
+}
+.card img{
+    width: 100%;
+    height:300px;
+    border:1px grey solid;
+}
+.card-body{
+    color:rgb(118, 28, 28);
+    background-color: #f4c0a6;
+}
+.card{
+    border:none;
+}
+#aboutTitle{
+    text-align: center;
+    margin-top:10px;
+    color:rgb(118, 28, 28);
+}
+
+#portfolio-container{
+    margin-top: 30px;
+}
+#portfolio-container .card{
+    border:2px darkgrey solid;
+    margin:20px;
+}
+#portfolio-container .card-body{
+    background-color: antiquewhite;
+}
+
+.jumbotron{
+    background-color: #f4c0a6;
+    margin:20px;
+    border: 1px rgb(118, 28, 28) solid;
+    color:rgb(118, 28, 28);
+
+}
+.jumbotron input{
+    background-color: antiquewhite;
+}
+.jumbotron textarea{
+    background-color: antiquewhite;
+}
+
+.jumbotron button{
+    background-color:#f1763a ;
+}
+
+#resume{
+background-color:rgb(82, 82, 82);
+color:antiquewhite;
+border-style: outset;
+
+}
